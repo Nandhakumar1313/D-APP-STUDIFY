@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(135deg, blue,purple,pink);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+/* Fix: Make navbar take full width and align items properly */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Ensures logout button is on the right */
+  align-items: first baseline;
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  position:absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
+}
+
+/* Welcome text styling */
+.welcome-box {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+/* Centering navigation buttons */
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #444;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.nav-links button:hover {
+  background-color: #666;
+}
+
+/* Fix: Move logout button to the right */
+.logout-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  position: relative;
+  left: -50px;
+}
+
+.logout:hover {
+  background-color: darkred;
+}
+
+/* Content box stays in the center */
+.content-box {
+  margin-top: -50px;
+  padding: 100px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
