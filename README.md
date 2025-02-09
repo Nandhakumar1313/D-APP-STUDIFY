@@ -36,7 +36,7 @@ D-APP-STUDIFY is a blockchain-powered decentralized identity verification platfo
 
 ## Getting Started
 ### Prerequisites
-Ensure you have the following installed:\
+Ensure you have the following installed:
 
 * Node.js (v14 or later)
 * Truffle or Hardhat for smart contract development
